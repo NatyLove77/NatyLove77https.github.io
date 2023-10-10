@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-image: url('https://www.xtrafondos.com/wallpapers/ilustracion-de-planetas-5898.jpg'); /* Reemplaza 'URL_DE_LA_IMAGEN' con la URL de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    /* Añade más estilos según sea necesario */
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.Separo{
+    margin-right: 40px;
+    margin-left: 45px;
+    
+
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+p.TITULOPLANETA{ 
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+h2.nombreplaneta{
+    font-size: 15px 15px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(37, 30, 30, 0.61);
+
+}
+.container {
+    text-align: center;
+    background-color: rgba(96, 143, 143, 0.644);
+    font-size: 15px 15px;
+}
+
